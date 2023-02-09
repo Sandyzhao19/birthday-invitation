@@ -1,0 +1,88 @@
+.form{
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cant-per {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.change-amount {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.countInput {
+  max-width: 2.5rem;
+  text-align: center;
+}
+
+.btn-primary {
+  width: 2.5rem;
+  background-color: #fbceb1 !important;
+  border: none !important;
+  color: #1f1f1f !important;
+  font-weight: 700 !important;
+}
+
+.btn-submit {
+  margin: 1rem 0;
+  width: 100%;
+  transition: all 1s;
+}
+
+.btn-submit:active {
+  transform: translateY(20%);
+}
+
+.make-less {
+  color: #1f1f1f90;
+  font-size: .9rem;
+  text-align: center;
+}
+
+.menues {
+  color: #1f1f1f99;
+  font-size: .9rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.menues p {
+  background-color: #fbceb1;
+  border-radius: 20px;
+  padding: .3rem 1rem;
+  margin: .2rem;
+}
+
+.menuInput {
+  margin: 1rem 0;
+}
+
+
+/* sugerir musica */
+
+.sugerirMusica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f20;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}

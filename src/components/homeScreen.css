@@ -1,0 +1,95 @@
+.homeScreen {
+    min-height: 100vh;
+    background: rgb(251,206,177);
+    background: linear-gradient(180deg, rgba(251,206,177,1) 0%, rgba(255,255,255,1) 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    font-size: 1.1rem;
+    color: #1f1f1f;
+    gap: 2rem;
+}
+
+.logo-mis-15 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 2rem 0;
+    position: relative;
+}
+
+.logo-mis-15 img {
+    max-width: 250px;
+    z-index: 999;
+}
+
+.circle {
+    width: 198px;
+    height: 198px;
+    background-color: rgb(251,206,177);
+    position: absolute;
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    padding: 0 0 2rem 0;
+}
+
+.fechayhora {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-mapa {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fbceb1;
+    padding: .5rem;
+    color: #1f1f1f !important;
+    border-radius: 10px;
+    font-size: .9rem;
+}
+
+.arrow-down {
+    font-size: 2rem;
+    color: #11111170;
+}
+
+/*  COUNTDOWN  */
+
+.countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbceb1;
+    padding: 1.4rem 0 .8rem 0;
+    width: 100vw;
+
+}
+
+.numbers {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #1f1f1f99;
+}
+
+.align {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    line-height: .8;
+    color: #1f1f1f99;
+}
