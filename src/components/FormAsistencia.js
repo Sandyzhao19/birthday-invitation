@@ -6,8 +6,10 @@ import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import './formAsistencia.css'
 
+
 const FormAsistencia = () => {
   const [count, setCount] = useState(1);
+  const [inputMenu, setInputMenu] = useState('')
 
   const submitHandler = (e) => {
     e.preventDefault()
@@ -34,6 +36,12 @@ const FormAsistencia = () => {
     })
 
   }
+
+  const handleClick = (e) => {
+    let menuInput = document.querySelector(".menuInput")
+    menuInput.value = e.target.innerHTML
+  }
+
 
   return (
     <Container fluid className="container">
@@ -74,18 +82,19 @@ const FormAsistencia = () => {
         <Form.Group className="mb-5">
           <p className="make-less">{count <= 1  ? '¿Necesita un menú especial?' : '¿Alguno de los invitados necesita un menú especial?'}</p>
           <div className="make-less menues">
-            <p>Celíaco</p>
-            <p>Vegetariano</p>
-            <p>Vegano</p>
-            <p>Menú infantil</p>
-            <p>Otro (indicar cuál)</p>
+            <p onClick={(e) => handleClick(e)} value="Celíaco" className="menuChip">Celíaco</p>
+            <p onClick={(e) => handleClick(e)} value="Vegetariano">Vegetariano</p>
+            <p onClick={(e) => handleClick(e)} value="Vegano">Vegano</p>
+            <p onClick={(e) => handleClick(e)} value="Infantil">Menú infantil</p>
+            <p onClick={(e) => handleClick(e)} value="Otro">Otro (indicar cuál)</p>
           </div>
           <Form.Control
             className="menuInput"
-            placeholder="Ingresar opción"
+            placeholder="Ingresar opcion"
             type="text"
             name="Menu"
-          />            
+          />
+          
         </Form.Group>
         <Form.Group className="mb-5 sugerirMusica">
           <Form.Label>Sugerir música, artista, canción</Form.Label>
@@ -94,7 +103,7 @@ const FormAsistencia = () => {
             placeholder="Ingresar opción"
             type="text"
             name="Cancion"
-          />            
+          />
         </Form.Group>
         <Button className="btn-submit" type='submit'>Enviar</Button>
       </Form>

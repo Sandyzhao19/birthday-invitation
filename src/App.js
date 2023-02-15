@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import FormAsistencia from './components/FormAsistencia.js';
 import HomeScreen from './components/HomeScreen';
 import RopaFormal from './components/RopaFormal';
+import SendPhotos from './components/SendPhotos';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <HomeScreen />
       <RopaFormal />
       <FormAsistencia />
+      <SendPhotos />
       <Footer />
     </div>
 
