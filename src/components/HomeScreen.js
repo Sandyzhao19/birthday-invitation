@@ -4,8 +4,7 @@ import './homeScreen.css'
 import logo from '../assets/mis15.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-import { Button } from 'react-bootstrap'
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
+
 
 const HomeScreen = () => {
 
