@@ -35,6 +35,15 @@ const FormAsistencia = () => {
       position: 'bottom-center'
     })
 
+    const input1 = document.querySelector(".countInput")
+    const input2 = document.querySelector(".nameInput")
+    const input3 = document.querySelector(".menuInput")
+    const input4 = document.querySelector(".cancionInput")
+    
+    input1.placeholder = 1
+    input2.value = ''
+    input3.value = ''
+    input4.value = ''
   }
 
   const handleClick = (e) => {
@@ -99,7 +108,7 @@ const FormAsistencia = () => {
         <Form.Group className="mb-5 sugerirMusica">
           <Form.Label>Sugerir música, artista, canción</Form.Label>
           <Form.Control
-            className="menuInput"
+            className="cancionInput"
             placeholder="Ingresar opción"
             type="text"
             name="Cancion"
