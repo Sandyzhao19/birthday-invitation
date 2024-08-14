@@ -16,13 +16,11 @@ const HomeScreen = () => {
       </div>
       <div className="info">
         <div className="fechayhora">
-          <p>29 | 04 | 2023</p>
-          <p>21 HS</p>
+          <p>23 | 08 | 2024</p>
         </div>
-        <p>Guardería Náutica Tifón</p>
-        <a href="https://www.google.com/maps/place/Complejo+N%C3%A1utico+Tif%C3%B3n+-+Granadero+Baigorria/@-32.8391242,-60.7002363,16z/data=!4m6!3m5!1s0x95b6516a7efbb155:0x83ff7399f1c380c2!8m2!3d-32.8376684!4d-60.6984178!16s%2Fg%2F11b6_f3zsr" target={`_blank`} className="btn-mapa">Ver mapa</a>        
+        <a href="https://maps.app.goo.gl/cEh9rj5GatY3c7zx5" target={`_blank`} className="btn-mapa">View Map</a>        
       </div>
-      <Clock deadline="april, 29, 2023" />
+      <Clock deadline="august, 23, 2024" />
       <div className="arrow-down">
         <FontAwesomeIcon icon={faArrowDown} />
       </div>

@@ -41,10 +41,10 @@ const Clock = ({ deadline }) => {
         <p>{leading0(seconds)}</p>
       </div>
       <div className="descript align">
-        <p>días</p>
-        <p>horas</p>
-        <p>min</p>
-        <p>seg</p>
+        <p>Day</p>
+        <p>Hour</p>
+        <p>Min</p>
+        <p>Sec</p>
       </div>
     </div>
   );
