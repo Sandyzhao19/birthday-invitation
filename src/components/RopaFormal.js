@@ -6,7 +6,7 @@ const RopaFormal = () => {
   return (
     <div className="vestimenta-container">
       <div className="vestimenta">
-        <p>Vestimenta formal</p>
+        <p>Dress Code</p>
         <img src={trajes} alt="" className="trajes" />
       </div>
     </div>

@@ -15,8 +15,14 @@ const SendPhotos = () => {
         <img src={estrella2} alt="" className='estrella2' />
         <img src={flecha} alt="" className='flecha' />
       </div>
-      <h3>¿Querés compartirme tus fotos después de la fiesta?</h3>
-      <Button className="fotos-btn" href="https://drive.google.com/drive/folders/1RCoi5G4KZueUHciqAmcNVw1rHp2Blj9B?usp=sharing" target="_blank">¡Pasalas por acá!</Button>
+
+      <div className="drinks-container">
+        <h3>Please feel free to put in the drinks and snacks you wanna have in the party</h3>
+        <Button className="drinks-btn" href="https://docs.google.com/spreadsheets/d/1kvL_lZwpOd6dWKF9I0PQynNdGVNEkzjHuTDvKuvZjOA/edit?usp=sharing" target="_blank"><p>Check Form</p></Button>
+      </div>
+
+      <h3>Do you want to share your photos with me after the party?</h3>
+      <Button className="fotos-btn" href="https://drive.google.com/drive/folders/1bVPj4U6b3Ly1AD4Slq9MLsgU-ntfzuf-?usp=sharing" target="_blank">Pass photos around</Button>
     </div>
   )
 }

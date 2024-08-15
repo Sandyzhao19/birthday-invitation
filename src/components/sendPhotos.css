@@ -1,4 +1,6 @@
 .fotos-container {
+    padding-top: 30px;
+    padding-bottom: 50px !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +8,6 @@
     text-align: center;
     margin: 8rem auto 0 auto;
     gap: 2rem;
-    min-height: 70vh;
     padding: 3rem 1rem;
     background-color: #1f1f1f10;
     overflow: hidden;
@@ -23,21 +24,18 @@ h3 {
 .luna {
     max-width: 50px;
     position: absolute;
-    top: -6rem;
     left: -2.5rem;
 }
 
 .estrella1 {
     max-width: 90px;
     position: absolute;
-    top: -5rem;
     left: -12rem;
 }
 
 .estrella2 {
     max-width: 95px;
     position: absolute;
-    top: -5rem;
     left: 6rem;
 }
 
@@ -45,10 +43,36 @@ h3 {
     position: absolute;
     max-width: 100px;
     left: -5rem;
-    top: 12rem;
+    top: 15rem;
 }
 
 .fotos-btn {
     width: auto;
     padding: .5rem 2rem !important;
+}
+
+.drinks-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 1rem;
+    overflow: hidden;
+}
+
+.drinks-btn {
+    margin-top: 30px;
+    width: auto;
+    padding: 0.5rem 2rem !important;
+    background-color: #FF7828 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    p {
+        margin: 0;
+        color: #fff;
+    }
 }

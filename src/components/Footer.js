@@ -4,10 +4,9 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-      <p>¿Tenes alguna consulta?</p>
-      <p>3413 77-4846</p>
-      <p>¡Te espero!</p>
-      <p className="firma">Renata</p>
+      <p>Talk to me on Instagram if you have any questions. Luv u all!</p>
+
+      <p className="text-sm">&copy; Designed by Sandy Zhao in 2024. All rights reserved.</p>
     </footer>
   )
 }

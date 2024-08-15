@@ -16,7 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0 2rem 0;
     position: relative;
 }
 
@@ -40,6 +39,10 @@
     justify-content: center;
     font-weight: 500;
     padding: 0 0 2rem 0;
+}
+
+.invited {
+    margin-bottom: 20px;
 }
 
 .fechayhora {

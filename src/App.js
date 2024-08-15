@@ -13,7 +13,7 @@ function App() {
     <div>
       <HomeScreen />
       <RopaFormal />
-      <FormAsistencia />
+      {/* <FormAsistencia /> */}
       <SendPhotos />
       <Footer />
     </div>
